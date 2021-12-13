@@ -96,12 +96,21 @@
 /*Fine esercizio 5*/
 
 /*Inizio esercizio 6*/
-#img-ex-7{
-    transition: all 3s;
+#img-ex-6{
     filter: grayscale(0);
 }
 
-#img-ex-7:hover{
+#img-ex-6:hover{
     filter: grayscale(100);
 }
-/*Fine esercizio 5*/
+/*Fine esercizio 6*/
+
+/*Inizio esercizio 7*/
+#img-ex-7{
+    transition: all 3s;
+}
+
+#img-ex-7:hover{
+    filter: sepia(100);
+}
+/*Fine esercizio 7*/
