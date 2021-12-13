@@ -94,3 +94,14 @@
     width: 50px;
 }
 /*Fine esercizio 5*/
+
+/*Inizio esercizio 6*/
+#img-ex-7{
+    transition: all 3s;
+    filter: grayscale(0);
+}
+
+#img-ex-7:hover{
+    filter: grayscale(100);
+}
+/*Fine esercizio 5*/
