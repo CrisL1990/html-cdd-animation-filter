@@ -117,7 +117,7 @@
 
 /*Inizio esercizio 8*/
 #img-ex-8{
-    transition: all 3s;
+    transition: all ease 3s;
 }
 
 #img-ex-8:hover{
@@ -125,3 +125,16 @@
     border-radius: 20px;
 }
 /*Fine esercizio 8*/
+
+/*Inizio esercizio 9*/
+#img-ex-9{
+    transition: all ease 3s;
+    transform: scale(0.5, 0.5);
+}
+
+#img-ex-9:hover{
+    filter:sepia() brightness();
+    border-radius: 20px;
+    transform: scale(1,1);
+}
+/*Fine esercizio 9*/
