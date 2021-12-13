@@ -46,7 +46,6 @@
 /*Inizio esercizio 2*/
 #square-ex-2{
     background-color: red;
-    border: solid red 1px;
     transition: all 3s;
 }
 
@@ -58,7 +57,6 @@
 /*Inizio esercizio 3*/
 #square-ex-3{
     background-color: red;
-    border: solid red 1px;
     transition: all 3s;
 }
 
@@ -70,7 +68,6 @@
 /*Inizio esercizio 4*/
 #square-ex-4{
     background-color: red;
-    border: solid red 1px;
     transition: all 3s;
 }
 
@@ -78,3 +75,22 @@
     opacity: 0;
 }
 /*Fine esercizio 4*/
+
+/*Inizio esercizio 5*/
+#square-ex-5{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    transition: all 3s;
+}
+
+#square-ex-5:hover{
+    height: 150px;
+    width: 150px;
+}
+
+#square-ex-5:active{
+    height: 50px;
+    width: 50px;
+}
+/*Fine esercizio 5*/
