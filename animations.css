@@ -104,8 +104,7 @@
     animation-iteration-count: infinite;
     animation-name: rotation;
     animation-duration: 1s;
-    animation-direction: reverse;
-    
+    animation-direction: reverse; 
 }
 
 @keyframes rotation{
@@ -117,3 +116,22 @@
         transform: rotate(360deg);
     }   
 }
+/*Fine esercizio 10*/
+
+/*Inizio esercizio 11*/
+.ex-11-icon:hover{
+    animation: linear;
+    animation-name: rotation2;
+    animation-duration: 2s;
+}
+
+@keyframes rotation2{
+    0%{
+        transform: rotate(0deg);
+    }
+
+    90%{
+        transform: rotate(300deg);
+    }
+}
+/*Fine esercizio 11*/
