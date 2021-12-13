@@ -111,6 +111,17 @@
 }
 
 #img-ex-7:hover{
-    filter: sepia(100);
+    filter: sepia() brightness();
 }
 /*Fine esercizio 7*/
+
+/*Inizio esercizio 8*/
+#img-ex-8{
+    transition: all 3s;
+}
+
+#img-ex-8:hover{
+    filter:sepia() brightness();
+    border-radius: 20px;
+}
+/*Fine esercizio 8*/
