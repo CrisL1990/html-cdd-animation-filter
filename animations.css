@@ -135,3 +135,43 @@
     }
 }
 /*Fine esercizio 11*/
+
+/*Inizio esercizio 12*/
+.ex-12-button:hover .ex-12-top-white{
+    animation: linear;
+    text-decoration: underline;
+    animation-name: slide;
+    animation-duration: 2s;
+   
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: linear;
+    animation-name: slide2;
+    animation-duration: 2s;
+   
+}
+
+@keyframes slide{
+   
+    50%{
+        left: calc(100% - 60px);
+    }
+
+    100%{
+        left: 10%;
+    }
+}
+
+@keyframes slide2{
+   
+    50%{
+        right: calc(100% - 60px);
+    }
+
+    100%{
+        right: 20%;
+    }
+}
+
+/*Fine esercizio 12*/
