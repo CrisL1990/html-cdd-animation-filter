@@ -1,0 +1,119 @@
+
+/*Inizio esercizio 1*/
+.ex-1-square{
+    transition: all 2s;
+}
+
+.ex-1-square:hover{
+    background-color: red;
+}
+/*Fine esercizio 1*/
+
+/*Inizio esercizio 2*/
+.ex-2-square{
+    transition: all 3s;
+}
+
+.ex-2-square:active{
+    width: 100%;
+}
+/*Fine esercizio 2*/
+
+/*Inizio esercizio 3*/
+.ex-3-square{
+    transition: all 3s;
+}
+
+.ex-3-square:hover{
+    border-radius: 50%;
+}
+/*Fine esercizio 3*/
+
+/*Inizio esercizio 4*/
+.ex-4-square{
+    transition: all 3s;
+}
+
+.ex-4-square:hover{
+    opacity: 0;
+}
+/*Fine esercizio 4*/
+
+/*Inizio esercizio 5*/
+.ex-5-square{
+    transition: all 3s;
+}
+
+.ex-5-square:hover{
+    height: 150px;
+    width: 150px;
+}
+
+.ex-5-square:active{
+    height: 50px;
+    width: 50px;
+}
+/*Fine esercizio 5*/
+
+/*Inizio esercizio 6*/
+.ex-6-img{
+    filter: grayscale(0);
+}
+
+.ex-6-img:hover{
+    filter: grayscale(100);
+}
+/*Fine esercizio 6*/
+
+/*Inizio esercizio 7*/
+.ex-7-img{
+    transition: all 3s;
+}
+
+.ex-7-img:hover{
+    filter: sepia() brightness();
+}
+/*Fine esercizio 7*/
+
+/*Inizio esercizio 8*/
+.ex-8-img{
+    transition: all ease 3s;
+}
+
+.ex-8-img:hover{
+    filter:sepia() brightness();
+    border-radius: 20px;
+}
+/*Fine esercizio 8*/
+
+/*Inizio esercizio 9*/
+.ex-9-img{
+    transition: all ease 3s;
+}
+
+.ex-9-img:hover{
+    filter:sepia() brightness();
+    border-radius: 20px;
+    transform: scale(1.5,1.5);
+}
+/*Fine esercizio 9*/
+
+/*Inizio esercizio 10*/
+.ex-10-icon{
+    animation: linear;
+    animation-iteration-count: infinite;
+    animation-name: rotation;
+    animation-duration: 1s;
+    animation-direction: reverse;
+    
+}
+
+@keyframes rotation{
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }   
+}
