@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    text-align: center;
+    margin: 50px 0px;
+    font-size: 3em;
+}
+
+.ex-number{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.ex-container{
+    padding: 20px;
+    width: 90%;
+    margin: auto;
+    height: 200px;
+    background-color: rgb(245, 245, 245);
+    margin-bottom: 50px;
+}
