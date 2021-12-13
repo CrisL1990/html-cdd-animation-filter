@@ -66,3 +66,15 @@
     border-radius: 50%;
 }
 /*Fine esercizio 3*/
+
+/*Inizio esercizio 4*/
+#square-ex-4{
+    background-color: red;
+    border: solid red 1px;
+    transition: all 3s;
+}
+
+#square-ex-4:hover{
+    opacity: 0;
+}
+/*Fine esercizio 4*/
